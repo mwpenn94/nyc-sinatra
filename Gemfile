@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'activerecord', '4.2.5', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
@@ -13,4 +13,5 @@ gem 'rspec'
 gem 'rack-test'
 gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'
 gem 'capybara'
+gem 'bigdecimal', '1.3.5'
 gem 'require_all'
